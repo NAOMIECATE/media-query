@@ -1,0 +1,15 @@
+h1{
+    color: brown;
+}
+p{
+    font-size: 3rem;
+}
+@media print and (max-width:500px){
+    h1{
+        color:darkgreen;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+
+}
